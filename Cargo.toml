@@ -1,0 +1,19 @@
+[package]
+name = "numcpus"
+version = "1.0.0"
+description = "Get the number of CPUs"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libnumcpus"
+repository = "https://github.com/thechampagne/libnumcpus"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "numcpus"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+num_cpus = "1.13.1"
