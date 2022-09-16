@@ -23,10 +23,10 @@ cargo build
 
 ```c
 // Returns the number of available CPUs of the current system.
-extern size_t num_cpus_get();
+size_t num_cpus_get();
 
 // Returns the number of physical cores of the current system.
-extern size_t num_cpus_get_physical();
+size_t num_cpus_get_physical();
 ```
 
 ### References
